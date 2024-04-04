@@ -1,0 +1,11 @@
+div {
+    margin: 0.5em;
+}
+
+canvas {
+    border: solid;
+}
+
+#controls {
+    gap: 1em;
+}
