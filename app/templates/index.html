@@ -6,7 +6,9 @@
   {% block inner_head %}
     <meta charset="utf-8">
     <title>Hackenbush Number Line</title>
-  {%  block preamble -%}{%- endblock %}
+  {%  block preamble -%}
+    <link rel="icon" type="image/x-icon" href="app/static/favicon.ico">
+  {%- endblock %}
   {%  block resources -%}
   {%   block css_resources -%}
     {{- bokeh_css if bokeh_css }}

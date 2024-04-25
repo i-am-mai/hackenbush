@@ -171,3 +171,4 @@ slider.js_on_change('value', CustomJS(args=dict(source=source, numbers_days=numb
 layout = column(slider, p)
 
 curdoc().add_root(layout)
+curdoc().title = "Hackenbush Number Line"
